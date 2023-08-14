@@ -1,31 +1,3 @@
-.navbar-nav.me-auto .nav-item {
-  margin-right: 10px;
-  top: 2%;
-}
-
-.navbar-brand {
-  position: absolute;
-  top: 1%;
-  left: 2%;
-}
-
-.wrapper {
-  display: flex;
-}
-
-.sidebar-wrapper {
-  min-width: 100px;
-  padding: 10px;
-  background-color: #fbfefb;
-}
-
-li,
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .sec-title {
   position: relative;
   padding-bottom: 40px;
