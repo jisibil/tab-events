@@ -214,3 +214,15 @@
 .social-icon-four li a:hover {
   color: #222;
 }
+
+.card {
+  margin-top: 5%;
+  margin-left: 100px;
+  justify-content: center;
+}
+
+.team-header {
+  text-align: center;
+  margin-top: 10%;
+}
+
