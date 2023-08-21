@@ -226,3 +226,15 @@
   margin-top: 10%;
 }
 
+.rounded-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 15%;
+}
+
+.socials {
+  position: absolute;
+  margin-top: 20%;
+}
