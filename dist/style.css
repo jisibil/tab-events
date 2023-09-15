@@ -215,13 +215,6 @@
   color: #222;
 }
 
-/* .gallery {
-  display: flex;
-  background-color: var(--background);
-  gap: 16px;
-  scale: 1.6;
-} */
-
 article {
   left: 0px;
   width: 200px;
@@ -236,19 +229,19 @@ article {
   margin: 1rem;
 }
 
-.card img {
+.card-index img {
   width: 100%;
   height: 160px;
   object-fit: cover;
   border-radius: 4px;
 }
 
-.card:hover {
+.card-index:hover {
   cursor: pointer;
   transform: scale(1.15);
 }
 
-.card:hover figcaption {
+.card-index:hover figcaption {
   font-size: 0.7rem;
   position: absolute;
   height: 80px;
@@ -265,7 +258,7 @@ article {
   padding-bottom: 10px;
 }
 
-.card:hover ~ .card {
+.card-index:hover ~ .card-index {
   font-weight: bold;
   cursor: pointer;
   transition: translateX(22px);
@@ -276,6 +269,15 @@ article {
   left: 0px;
   text-align: center;
   margin-top: 10%;
+}
+
+.card-body {
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.rounded-start {
+  margin-top: 20%;
 }
 
 .rounded-image {
